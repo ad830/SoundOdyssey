@@ -1,0 +1,96 @@
+<Campaign>
+    <Sector id="0" name="Preliminary Sector">
+        <Stage id="0" name="Pitch Fundamentals">
+            <Level id="0" name="Pitch Intro">
+                <levelType>Teaching</levelType>
+                <sceneFilename>PitchLevel</sceneFilename>
+            </Level>
+            <Level id="1" name="Hot Cross Buns">
+                <levelType>Song</levelType>
+                <midiFilename>Hot Cross Buns.mid</midiFilename>
+                <idealTrack>1</idealTrack>
+            </Level>
+        </Stage>
+        <Stage id="1" name="Duration Fundamentals">
+            <Level id="2" name="Duration Intro">
+                <levelType>Teaching</levelType>
+                <sceneFilename>DurationLevel</sceneFilename>
+            </Level>
+            <Level id="3" name="Twinkle Star">
+                <levelType>Song</levelType>
+                <midiFilename>Twinkle, Twinkle Little Star.mid</midiFilename>
+                <idealTrack>0</idealTrack>
+            </Level>
+        </Stage>
+        <Exam id="0" name="First Exam">
+            <ScalesSection>
+                <scales>
+                    <scale>
+                        <root>C</root>
+                        <pattern>Major</pattern>
+                    </scale>
+                    <scale>
+                        <root>G</root>
+                        <pattern>Major</pattern>
+                    </scale>
+                    <scale>
+                        <root>A</root>
+                        <pattern>Harmonic Minor</pattern>
+                    </scale>
+                    <scale>
+                        <root>E</root>
+                        <pattern>Harmonic Minor</pattern>
+                    </scale>
+                </scales>
+                <octaveCount>2</octaveCount>
+                <motion>Similar</motion>
+                <direction>Ascending</direction>
+            </ScalesSection>
+        </Exam>
+    </Sector>
+    <Sector id="1" name="Sector 1">
+        <Stage id="0" name="Key Signatures">
+            <Level id="4" name="Key Signatures Level">
+                <levelType>Teaching</levelType>
+                <sceneFilename>KeySignatureLevel</sceneFilename>
+            </Level>
+            <Level id="5" name="Excerpt from Canon">
+                <levelType>Song</levelType>
+                <midiFilename>CanonExcerpt.mid</midiFilename>
+                <idealTrack>1</idealTrack>
+            </Level>
+        </Stage>
+        <Stage id="1" name="Introduction to Scales">
+            <Level id="6" name="Scales Level 1 - C Major">
+                <levelType>Teaching</levelType>
+                <sceneFilename>ScalesCMajorLevel</sceneFilename>
+            </Level>
+            <Level id="7" name="Scales Level 2 - G Major">
+                <levelType>Teaching</levelType>
+                <sceneFilename>ScalesGMajorLevel</sceneFilename>
+            </Level>
+            <Level id="8" name="Scales C and G Major">
+                <levelType>Song</levelType>
+                <midiFilename>CGMajor.mid</midiFilename>
+                <idealTrack>0</idealTrack>
+            </Level>
+        </Stage>
+        <Exam id="1" name="Basic Exam">
+            <ScalesSection>
+                <scales>
+                    <scale>
+                        <root>A</root>
+                        <pattern>Harmonic Minor</pattern>
+                    </scale>
+                    <scale>
+                        <root>E</root>
+                        <pattern>Harmonic Minor</pattern>
+                    </scale>
+                </scales>
+                <octaveCount>2</octaveCount>
+                <motion>Similar</motion>
+                <direction>Ascending</direction>
+            </ScalesSection>
+        </Exam>
+    </Sector>
+</Campaign>
